@@ -87,6 +87,7 @@ apt-get install -y --force-yes \
     apt-transport-https \
     apt-utils \
     bind9-host \
+    build-essential \
     bzip2 \
     coreutils \
     curl \

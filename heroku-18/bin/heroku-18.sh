@@ -92,6 +92,7 @@ apt-get install -y --no-install-recommends \
     apt-transport-https \
     apt-utils \
     bind9-host \
+    build-essential \
     bzip2 \
     coreutils \
     curl \
