@@ -31,6 +31,8 @@ deploy:
       all_branches: true
   - provider: script
     script: bin/convert-and-publish-to-heroku.sh
+    on:
+      all_branches: true
 before_install:
 - |
   # decrypt private key for signing images
