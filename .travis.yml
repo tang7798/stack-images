@@ -29,6 +29,8 @@ deploy:
     script: sh bin/publish-to-dockerhub.sh
     on:
       all_branches: true
+  - provider: script
+    script: bin/convert-and-publish-to-heroku.sh
 before_install:
 - |
   # decrypt private key for signing images
