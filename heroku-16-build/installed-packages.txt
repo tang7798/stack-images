@@ -505,10 +505,10 @@ perl-modules-5.22
 pgdg-keyring
 pkg-config
 poppler-data
-postgresql-client-10
+postgresql-client-11
 postgresql-client-common
 postgresql-common
-postgresql-server-dev-10
+postgresql-server-dev-11
 procps
 python
 python-dev
